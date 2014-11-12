@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestFirstParsePath(t *testing.T) {
-	path := "D/go/coding/../source/warcluster/tests/first/../../"
+	path := "D/go/coding/../source/MYTH/tests/first/../../"
 
 	if parsePath(path) != "/D/go/source/warcluster/" {
 		t.Error("Result path is ", parsePath(path))
